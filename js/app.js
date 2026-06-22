@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const CONTACT_FORM_ENDPOINT = "https://portfolio1526.app.n8n.cloud/webhook/Portfolio";
 
     // Paste your n8n AI Agent Webhook URL here for dynamic chatbot responses!
-    const CHATBOT_ENDPOINT = "https://nil1526.app.n8n.cloud/webhook/ai/agent/main";
+    const CHATBOT_ENDPOINT = "https://nil1526.app.n8n.cloud/webhook-test/ai/agent/main";
 
     // Generate or retrieve a unique session ID for n8n AI Agent memory
     let chatSessionId = sessionStorage.getItem('portfolio_chat_session');
